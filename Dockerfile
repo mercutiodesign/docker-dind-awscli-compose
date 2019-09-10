@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:stable
 
 RUN set -x \
   && apk add openssh-client py3-pip \
